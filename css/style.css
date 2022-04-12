@@ -62,6 +62,10 @@ header {
     color: #fff;
 }
 
+button i {
+    font-size: 20px;
+}
+
 /*-----------------
     MAIN
 -----------------*/
