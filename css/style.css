@@ -140,6 +140,33 @@ button i {
     background-color: #ccb2a3;
 }
 
+.overlay::after {
+    content: "\2b";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(26, 188, 156, 0.7);
+    font-size: 100px;
+    color: #fff;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.overlay {
+    position: relative;
+}
+
+.overlay:hover::after{
+    opacity: 1;
+}
+
 .about {
     color: #fff;
 }
