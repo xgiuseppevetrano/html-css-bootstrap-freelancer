@@ -74,6 +74,19 @@ button i {
     text-align: center;
 }
 
+.hero-img {
+    height: 250px;
+}
+
+.decoration-bar {
+    background-color: #fff;
+    width: 15%;
+    height: 4px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    margin: 0 10px;
+}
+
 .about {
     color: #fff;
 }
