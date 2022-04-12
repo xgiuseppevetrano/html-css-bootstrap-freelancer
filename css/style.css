@@ -34,6 +34,12 @@
     color: #888888;
 }
 
+.ms_btn-contact {
+    background-color: #1abc9c;
+    border-color: #1abc9c;
+    color: #fff;
+}
+
 /*-----------------
     TYPO
 -----------------*/
@@ -101,7 +107,7 @@ button i {
     color: #2c3e50;
 }
 
-.portfolio-bar {
+.blue-bar {
     background-color: #2c3e50;
     border: 1px solid #2c3e50;
 }
@@ -136,6 +142,19 @@ button i {
 
 .about {
     color: #fff;
+}
+
+form input {
+    display: block;
+}
+
+.ms_border-form {
+    border: none;
+    border-bottom: 1px solid #cccccc;
+}
+
+form input::placeholder, form textarea::placeholder {
+    color: #2c3e50;
 }
 
 /*-----------------
